@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Today's Lab</title>
+</head>
+
+<body>
+	<div align=center>
+<table border=1 width="550">
+<tr bgcolor="pink">
+	<th colspan="3">About Sherley Laibhen-111305048</th>
+</tr>
+<tr> 
+<td rowspan="3"> <div align="center"><img src="profile.jpg" width="100" height="100">Personal photo </div> </td> 
+<td colspan="2"> <label>Name:
+	<input name="name" type="text" value="Sherley Laibhen" size="=25" maxlength="30"> </label> 
+<br> 
+<form>Gender:
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female" checked>Female
+<input type="radio" name="gender" value="Other">Other
+</form> </br>
+</td> 
+</tr>
+<tr>
+<td> <form action="/action_page.php">County:
+	<select name="Country">
+		<option value="Taipei" selected>Taipei</option>
+		<option value="Kaoshiung">Tainan</option>
+		<option value="Tainan">Taichung</option>
+		<option value="Taoyuan">Taoyuan</option> </select> </form> 
+</td>
+<td> <form action="/action_page.php">
+	<label for="birthday">Birthday:</label>
+	<input type="date" id="birthday" name="birthday" value="2000-04-26" min="2000-04-01" max="2000-04-30"> </form> </td>
+</tr>
+<tr>
+	<td colspan="2">
+		<form>Email:
+			<input type="email" name="email" placeholder="name@domain.com" value="sherleylaibhen@gmail.com" required>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>Hobby</td>
+	<td colspan="2">
+	<form action="/action_page.php" method="get"> 
+		<input type="checkbox" name="hobby" value="Swimming">Swimming
+		<input type="checkbox" name="hobby" value="Volleyball">Volleyball
+		<input type="checkbox" name="hobby" value="Movie" checked>Movie
+		<input type="checkbox" name="hobby" value="Game">Game
+		<input type="checkbox" name="hobby" value="Sleep" checked>Sleep
+	</form>
+	</td>
+</tr>
+<tr>
+	<td>Skill</td>
+	<td colspan="2">
+		<form action="/action_page.php" method="get">
+			<input type="checkbox" name="skill" value="Java">Java
+			<input type="checkbox" name="skill" value="HTML" checked>HTML
+			<input type="checkbox" name="skill" value="Python">Python
+			<input type="checkbox" name="skill" value="Microsoft Office" checked>Microsoft Office
+			<input type="checkbox" name="skill" value="Premiere">Premiere
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>Say Something</td>
+	<td colspan="2" bgcolor="pink"><textarea rows="4" cols="50" placeholder="Say something here."></textarea></td>
+</tr>
+<tr>
+	<td colspan="3">
+		<form method="post" action="sherleylaibhen@gmail.com">
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear">
+		</form>
+	</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
